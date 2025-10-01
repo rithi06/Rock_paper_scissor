@@ -3,60 +3,43 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
     <title>RPS</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <h1>Rock Paper Scissor</h1>
-    <h2>With Artificial Intelligence</h2>
-    
-    <p id="sc">Score</p>
-    
+    <h1>Rock Papers Scissors</h1>
+    <h3>Play rock paper scissor with me</h3>
+    <div id="scoreboard">
+        <div class="player">
+            <div class="sborder">
+                <p id="p_score">0</p>
+            </div>
+            <p>🫵 You</p>
+            <p id="p_chose">Choosed: </p>
+        </div>
+        <div class="divider"></div>
+        <div class="player">
+            <div class="sborder">
+                <p id="r_score">0</p>
+            </div>
+            <p>👧🏻 Rithi</p>
+            <p id="r_chose">Choosed: </p>
+        </div>
+    </div>
     <div id="elements">
-        <div id="rock">
-            <p class="emoji">🗿</p>
-            <br>
-            <a href=""><div class="border">
-            <p>Rock</p>
-            </div>
-            </a>
-        </div>
-        <div class="divider"></div>
-        <div id="paper">
-            <p class="emoji">📄</p>
-            <br>
-            <a href="">
-            <div class="border">
-            <p>Paper</p>
-            </div>
-            </a>
-        </div>
-        <div class="divider"></div>
-        <div id="scissor">
-            <p class="emoji">✂️</p>
-            <br>
-            <a href="" ><div class="border">
-            <p>Scissor</p>
-            </div>   
-            </a> 
-        </div>
+    <div class="block" id="Rock">
+        <p>✊</p>
+        <p>Rock</p>
     </div>
-    <br>
-    <br>
-        <div id="scoreboard">
-        <div class="player">
-            <p>You</p>
-            <p id="p_score">0</p>
-        </div>
-        <div class="divider"></div>
-        <div class="player">
-            <p>AI</p>
-            <p id="ai_score">0</p>
-        </div>
+    <div class="block" id="Paper">
+        <p>✋</p>
+        <p>Paper</p>
     </div>
-    <p id="result">Who wins</p>
-    <br>
-    <p id="gcount">Matches</p>
-    <p id="res_winner"></p>
+    <div class="block" id="Scissor">
+        <p>✌️</p>
+        <p>Scissor</p>
+    </div>
+</div>
+
 </body>
 </html>
