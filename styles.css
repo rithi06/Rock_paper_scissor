@@ -6,12 +6,18 @@ body{
     justify-content: center;
     align-items: center;
 }
+#res{
+    font-size: 1.4em;
+    color: rgb(154, 0, 182);
+}
 h1{
+    color: #2f3640;
     font-weight: bold;
     font-size: 2.5em;
     margin-bottom: 0.2em;
 }
 h3{
+    color: #4c5561;
     font-weight:normal;
     font-size: 1.5em;
     margin-bottom: 1em;
@@ -26,14 +32,15 @@ p{
     display: flex;
     justify-content: center;
     align-items: center;
-    gap:20px;
+    gap: 80px;
 }
 .divider{
     border-left: 1px solid black;
-    height: 100px;
+    height: 110px;
 }
 
 .sborder{
+    background-color: #eaeff5;
     display:flex;
     justify-content: center;
     align-items: center;
@@ -44,9 +51,11 @@ p{
     margin:10px auto;
 }
 .block{
+    background-color: rgb(208, 208, 208);
+    color: #313131;
     border: 2px solid black;
-    height: 60px;
-    width: 85px;
+    height: 90px;
+    width: 110px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -63,6 +72,32 @@ p{
     display: flex;
     justify-content: center;
     align-items: center;
-    gap:20px;
+    gap:60px;
+    font-size: 1.2em;
+    margin-bottom: 30px;
+}
+#count{
+    font-size: 1.3em;
+    color: rgb(3, 105, 116);
+}
+#final_res{
+    font-size: 1.5em;
+    color: rgb(255, 0, 0);
+}
+button {
+    background-color: #d1e4ff;
+    color: #2f3640;
+    border: 2px solid black;
+    border-radius: 8px;
+    padding: 10px 20px;
+    font-size: 1.1em;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: transform 0.2s, background-color 0.2s;
+}
 
+button:hover {
+    background-color: #b1b4b8; 
+    transform: scale(1.1);
 }
